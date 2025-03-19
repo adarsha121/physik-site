@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biophysics & MD Simulations</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        body.dark-mode {
+            background-color: #121212;
+            color: #eee;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            transition: background-color 0.3s ease;
+        }
+
+        header.dark-mode {
+            background-color: #004080;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 0.5em 0;
+            transition: background-color 0.3s ease;
+        }
+
+        nav.dark-mode {
+            background-color: #222;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a.dark-mode:hover {
+            background-color: #777;
+        }
+
+        main {
+            padding: 2em;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        main.dark-mode {
+            background-color: #1f1f1f;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+
+        section {
+            margin-bottom: 2em;
+        }
+
+        h2 {
+            color: #007bff;
+            transition: color 0.3s ease;
+        }
+
+        h2.dark-mode {
+            color: #64b5f6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        footer.dark-mode {
+            background-color: #222;
+            color: #ddd;
+        }
+
+        .img-md {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .dark-mode-button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .dark-mode-button:hover {
+            background-color: #45a049;
+        }
+
+        .dark-mode-button.dark-mode {
+            background-color: #212121;
+            color: #fff;
+        }
+
+        .dark-mode-button.dark-mode:hover {
+            background-color: #424242;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="">
+        <h1>Biophysics & Molecular Dynamics Simulations</h1>
+    </header>
+
+    <nav class="">
+        <a href="#about" class="">About</a>
+        <a href="#md-simulations" class="">MD Simulations</a>
+        <a href="#applications" class="">Applications</a>
+        <a href="#resources" class="">Resources</a>
+        <button id="dark-mode-toggle" class="dark-mode-button ">Toggle Dark Mode</button>
+    </nav>
+
+    <main class="">
+        <section id="about">
+            <h2 class="">About Biophysics</h2>
+            <p>Biophysics applies the principles of physics to biological systems. It seeks to understand the physical mechanisms underlying biological processes at all scales, from molecules to organisms. This field is crucial for understanding how life works, from the folding of proteins to the functioning of the nervous system.</p>
+        </section>
+
+        <section id="md-simulations">
+            <h2 class="">Molecular Dynamics (MD) Simulations</h2>
+            <p>Molecular Dynamics simulations are computational methods used to study the physical movements of atoms and molecules. By solving Newton's equations of motion, MD simulations provide insights into the dynamic behavior of biological systems over time. These simulations are essential for understanding protein folding, drug interactions, and membrane dynamics.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Molecular_dynamics_simulation_of_protein_folding.gif/300px-Molecular_dynamics_simulation_of_protein_folding.gif" alt="Molecular Dynamics Simulation" class="img-md">
+        </section>
+
+        <section id="applications">
+            <h2 class="">Applications of MD Simulations</h2>
+            <p>MD simulations have a wide range of applications in biophysics and related fields, including:</p>
+            <ul>
+                <li><strong>Drug Discovery:</strong> Predicting how drugs bind to target molecules.</li>
+                <li><strong>Protein Folding:</strong> Studying the process by which proteins achieve their functional shape.</li>
+                <li><strong>Membrane Dynamics:</strong> Investigating the behavior of cell membranes and their interactions with proteins and other molecules.</li>
+                <li><strong>Enzyme Catalysis:</strong> Understanding the mechanisms by which enzymes speed up chemical reactions.</li>
+                <li><strong>DNA Interactions:</strong> Exploring how proteins interact with DNA.</li>
+            </ul>
+        </section>
+
+        <section id="resources">
+            <h2 class="">Resources</h2>
+            <p>Here are some resources for further learning about biophysics and MD simulations:</p>
+            <ul>
+                <li><a href="https://www.biophysics.org/" target="_blank" rel="noopener noreferrer" class="">Biophysical Society</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Molecular_dynamics" target="_blank" rel="noopener noreferrer" class="">Molecular Dynamics - Wikipedia</a></li>
+                <li><a href="https://www.charmm.org/" target="_blank" rel="noopener noreferrer" class="">CHARMM</a> (A popular MD simulation software)</li>
+                <li><a href="https://www.gromacs.org/" target="_blank" rel="noopener noreferrer" class="">GROMACS</a> (Another popular MD simulation software)</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="">
+        <p>&copy; 2025 Biophysics & MD Simulations</p>
+    </footer>
+
+    <script>
+        const darkModeToggle = document.getElementById('dark-mode-toggle');
+        const body = document.body;
+        const header = document.querySelector('header');
+        const nav = document.querySelector('nav');
+        const main = document.querySelector('main');
+        const headings = document.querySelectorAll('h2');
+        const navLinks = document.querySelectorAll('nav a');
+        const footer = document.querySelector('footer');
+
+        darkModeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            header.classList.toggle('dark-mode');
+            nav.classList.toggle('dark-mode');
+            main.classList.toggle('dark-mode');
+            headings.forEach(heading => heading.classList.toggle('dark-mode'));
+            navLinks.forEach(link => link.classList.toggle('dark-mode'));
+            footer.classList.toggle('dark-mode');
+
+            if (darkModeToggle.classList.contains('dark-mode')) {
+                darkModeToggle.classList.add('dark-mode');
+            } else {
+                darkModeToggle.classList.remove('dark-mode');
+            }
+        });
+    </script>
+</body>
+</html>

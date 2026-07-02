@@ -21,8 +21,6 @@ This project is dedicated to helping learners and physics explorers understand c
 ├── bgrad1.py                  # Gradient-based computations
 ├── gaussplot.py               # Gaussian plotting utilities
 ├── pyxl_for_ddf.py            # Excel data processing utilities
-├── dtail_begin.py             # Physics simulation starter
-├── demo.py                    # Demonstration scripts
 ├── main.py                    # Main entry point
 ├── data/                      # Experimental and analysis data
 │   ├── inside_analysis.tsv
@@ -30,15 +28,15 @@ This project is dedicated to helping learners and physics explorers understand c
 │   ├── outside_analysis.tsv
 │   ├── outside.tsv
 │   ├── pract.tsv
-│   ├── resistance_data.tsv
-│   └── table.txt
+│   |── resistance_data.tsv
+│   
 └── figs/                      # Generated figures and plots
 ```
 
 ## Key Notebooks
 
 - **dirac_delta.ipynb** - Explores the Dirac delta function with mathematical proofs and physical interpretations
-- **Dirac_Delta_Simulation.xlsx** - Excel file of same dirac delta notebook.
+- **Dirac_Delta_Simulation.ods** - Spreadsheet(Librecalc) file of same dirac delta notebook, with all the graphs plotted.
 - **fourier_series.ipynb** - Comprehensive analysis of Fourier series and function decomposition
 - **fourier_n_laplace.ipynb** - Advanced transforms and their applications in physics
 - **resistor.ipynb** - Circuit analysis and resistance computations
